@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html,body{
+    min-height: 100vh;
+    background-color: rgb(251, 247, 231);
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+.flex > div > h1{
+    color: black;
+    font-size: x-large;
+}
+.main-wrap{
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.inp{
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    /* border: 2px solid black; */
+}
+
+#inpId{
+min-height: 4rem;
+min-width: 16rem;
+}
+
+.keypad{
+    min-width: 16rem;
+    min-height: 16rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
